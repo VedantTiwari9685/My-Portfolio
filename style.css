@@ -1,0 +1,1122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(29, 8, 53);
+    color: white;
+}
+
+.colored-c {
+    color: #b7b7f3;
+}
+.header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(48 17 86) ;
+    position: fixed;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(48 17 86);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+    color: white;
+    opacity: 0;
+    animation: slideTop .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+
+}
+
+nav ul li a:hover {
+    color: rgb(183, 183, 243);
+    font-size: 1.03rem;
+    text-shadow: 0 0 25px rgb(201, 194, 201),
+        0 0 50px rgb(231, 222, 231);
+}
+
+nav ul li .contact {
+
+    padding: 7px 22px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(39, 7, 58);
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    transition: 0.3 ease;
+    animation: slideTop .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+nav ul li .contact:hover {
+    background-color: rgb(131, 80, 170);
+    box-shadow: 0 0 25px rgb(84, 31, 101);
+    color: white;
+}
+
+
+.left {
+    font-size: 1.5rem;
+    cursor: default;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 230px 0;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: space;
+
+    gap: 2rem;
+    padding: 6rem;
+    margin: 120px 0;
+    margin-bottom: 0px;
+
+}
+
+.about .rightabout {
+    width: 700px;
+}
+
+.about-text h2 {
+    font-size: 60px;
+}
+
+.about-text h2 span {
+    color: rgb(183, 183, 243);
+}
+
+.about-text h4 {
+    font-size: 29px;
+    color: white;
+    font-weight: 600;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+
+}
+
+.about-text p {
+    color: aliceblue;
+    font-size: 20px;
+    list-style: 1.4;
+    margin-bottom: 4rem;
+    text-align: justify;
+}
+
+
+main hr {
+    border: 0;
+    background: rgb(145, 110, 185);
+    height: 1.8px;
+    margin: 40px 80px;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2.6rem;
+}
+
+.leftSection .name {
+    opacity: 0;
+    animation: slideBottom .7s ease forwards;
+    animation-delay: .5s;
+}
+
+.leftSection .purple {
+    color: rgb(183, 183, 243);
+}
+
+.leftSection .doing {
+    opacity: 0;
+    animation: slideLeft .7s ease forwards;
+    animation-delay: 1s;
+}
+
+.leftSection .upper-buttons {
+    padding-top: 60px;
+    padding-bottom: 15px;
+
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 1.8s;
+
+}
+
+.leftSection .lower-buttons {
+    margin-top: 30px;
+    border-radius: 40px;
+    padding: 0 94px;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2.2s;
+}
+
+.btn {
+
+    display: inline-block;
+    padding: 12px 28px;
+    background: rgb(74, 37, 120);
+    border-radius: 40px;
+    border-color: transparent;
+    font-size: 16px;
+    color: rgba(255, 254, 255, 0.944);
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 400;
+
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 5px rgb(85, 19, 85),
+        0 0 25px rgb(85, 19, 85), 0 0 50px rgb(85, 19, 85),
+        0 0 100px rgb(85, 19, 85), 0 0 200px rgb(85, 19, 85);
+
+}
+
+.rightSection {
+    margin-top: -30px;
+}
+
+.rightSection img {
+    height: 400px;
+    width: 300px;
+    border-radius: 60%;
+}
+
+.myimagestyle {
+    box-shadow: 0 0 20px 15px rgba(90, 40, 144, 0.766);
+}
+
+.myaboutimage {
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    height: 400px;
+    width: 300px;
+    border-radius: 60%;
+    box-shadow: 0 0 20px 15px rgba(90, 40, 144, 0.766);
+}
+
+
+
+#element {
+    font-size: 2.5rem;
+    color: rgb(183, 183, 243);
+
+}
+
+.leftSection .elementmove {
+    opacity: 0;
+    animation: slideRight .7s ease forwards;
+    animation-delay: 1.5s;
+}
+
+.socialfirst {
+    padding-left: 62px;
+    padding-top: -10px;
+}
+
+.socialfirst a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    border: 2px solid rgb(218, 173, 234);
+    border-radius: 50%;
+    font-size: 18px;
+    color: rgb(218, 173, 234);
+    text-decoration: none;
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    margin: 40px 8px 20px 0;
+
+}
+
+.socialfirst a:hover {
+    background: rgb(218, 173, 234);
+    color: black;
+    box-shadow: 0 0 20px rgb(218, 173, 234);
+}
+
+
+
+.text-gray {
+    color: gray;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.secondSection .box {
+    display: flex;
+    background: white;
+    width: 80vw;
+    /*Change this after writing past experience to top line width*/
+    height: 2px;
+    margin: 110px 0;
+}
+
+.secondSection .vertical {
+
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 130px;
+    /*Change this after writing past experience*/
+}
+
+.image-top {
+    width: 35px;
+    position: relative;
+    top: -45px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 17px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 180px;
+    font-size: 15px;
+
+}
+
+
+
+
+/* About me animation below */
+
+/* .about-text h2{
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 2s;
+}
+.about-text h4{
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 2.3s;
+}
+.about-text p{
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 2.6s;
+} */
+#services {
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+
+}
+.sub-title-skills {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+
+}
+
+
+.sub-title span {
+    color: rgb(183, 183, 243);
+
+
+}
+.sub-title-skills span {
+    color: rgb(183, 183, 243);
+
+
+}
+
+.container {
+    padding: 90px;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+
+}
+
+.services-list div {
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 20px rgb(100, 14, 100),
+        1px 1px 40px rgb(163, 77, 163);
+
+}
+
+.services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.services-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.services-list div a {
+    text-decoration: none;
+    color: rgb(193, 163, 216);
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.services-list div p {
+    font-size: 15px;
+    text-align: justify;
+
+}
+
+.read {
+    display: inline-block;
+    padding: 12px 28px;
+    background: rgb(74, 37, 120);
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px rgb(124, 73, 124),
+        0 0 25px rgb(121, 71, 121);
+
+}
+
+.read:hover {
+    background: rgb(218, 173, 234);
+    color: black;
+    box-shadow: 0 0 20px rgb(218, 173, 234);
+}
+
+.services-list div:hover {
+    transform: translateY(-10px);
+}
+
+.skills-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.container1 {
+    width: 450px;
+    height: 400px;
+    padding: 75px 90px;
+    
+}
+
+.heading1 {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+}
+
+.bar {
+    font-size: 23px;
+}
+
+.tech-bars .bar {
+    margin: 25px 0;
+
+}
+
+.tech-bars .bar:first-child {
+    margin-top: 0;
+}
+
+.tech-bars .bar:last-child {
+    margin-bottom: 0;
+}
+
+.tech-bars .bar .info {
+    margin-bottom: 5px;
+}
+
+.tech-bars .bar .info span {
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+
+.tech-bars .bar .progress-line {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.893);
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.tech-bars .bar .progress-line span {
+    height: 100%;
+    background-color: #b7b7f3;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.progress-line.html span {
+    width: 85%;
+
+}
+
+.bar .progress-line.css span {
+    width: 55%;
+
+}
+
+.progress-line.python span {
+    width: 40%;
+
+}
+
+.progress-line.java span {
+    width: 90%;
+
+}
+
+.progress-line.c span {
+    width: 80%;
+
+}
+
+
+.progress-line span::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: rgb(255, 255, 255);
+    top: -10px;
+    right: 0;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
+
+.progress-line span::after {
+    position: absolute;
+    padding: 1px 8px;
+    background-color: rgb(17, 1, 33);
+    color: white;
+    font-size: 12px;
+    border-radius: 3px;
+    top: -28px;
+    right: -20px;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
+
+.progress-line.html span::after {
+    content: "85%";
+
+}
+
+.progress-line.css span::after {
+    content: "55%";
+}
+
+.progress-line.java span::after {
+    content: "90%";
+}
+
+.progress-line.python span::after {
+    content: "45%";
+}
+
+.progress-line.c span::after {
+    content: "80%";
+}
+
+@keyframes showText {
+    100% {
+
+        opacity: 1;
+    }
+}
+
+.radial-bars {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.radial-bars .radial-bar {
+    width: 50%;
+    height: 170px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.radial-bars .radial-bar svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 120px;
+    height: 160px;
+
+}
+.radial-bars .radial-bar .progress-bar{
+    stroke-width: 10;
+    stop-color: black;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+}
+@keyframes animate-bar {
+    100%{
+        stroke-dashoffset: -1;
+    }
+}
+.path{
+    stroke-width: 10;
+    stroke: #b7b7f3;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+}
+.path-1{animation: animate-path1 1s 1s linear forwards}
+.path-2{animation: animate-path2 1s 1s linear forwards}
+.path-3{animation: animate-path3 1s 1s linear forwards}
+.path-4{animation: animate-path4 1s 1s linear forwards}
+
+@keyframes animate-path1 {
+    100%{
+        stroke-dashoffset: 75;
+    }
+}
+@keyframes animate-path2 {
+    100%{
+        stroke-dashoffset: 200;
+    }
+}
+@keyframes animate-path3 {
+    100%{
+        stroke-dashoffset: 40;
+    }
+}
+@keyframes animate-path4 {
+    100%{
+        stroke-dashoffset: 55;
+    }
+}
+
+.radial-bar .percentage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+.radial-bar .text{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: -5%;
+    transform: translateY(-50px);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0 ;
+}
+
+.main-text{
+    padding-top: 130px;
+    margin-top: 200px;
+}
+.main-text h2{
+    
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+}
+.main-text h2 span{
+    color:#b7b7f3;
+
+}
+
+.project-section{
+    
+    margin-bottom: 100px;
+}
+.portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-items: center;
+    align-items: center;
+}
+
+.row {
+    margin: 40px 10px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    background: transparent;
+    width: 80%;
+    height: auto;
+    box-shadow: 0 0 5px rgb(124, 73, 124),
+                0 0 10px rgb(121, 71, 121),
+                0 0 25px rgb(121, 71, 121),
+                0 0 50px rgb(121, 71, 121);
+}
+
+.row img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.row:hover img {
+    transform: scale(1.1);
+    
+}
+
+.layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgb(177, 154, 198), #401756);
+    position: absolute;
+    border-radius: 8px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: center; /* Corrected from 'conter' to 'center' */
+    text-align: center;
+    padding: 0 40px;
+    transition: height 0.5s; /* Corrected from 'transform: height' to 'transition: height' */
+}
+
+.layer h5 {
+    color: black;
+    width: 80%;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-right: 3rem;
+}
+
+.layer p {
+    color: black;
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-right: 4rem;
+    text-align: justify;
+    
+}
+
+.layer a {
+    margin-top: 40px;
+    display: inline-block;
+    padding: 12px 28px;
+    background: rgb(74, 37, 120);
+    border-radius: 40px;
+    border-color: transparent;
+    font-size: 16px;
+    color: rgba(255, 254, 255, 0.944);
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 400;
+    margin-right: 3rem;
+}
+.layer a:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 5px rgb(85, 19, 85),
+        0 0 25px rgb(85, 19, 85), 0 0 50px rgb(85, 19, 85),
+        0 0 100px rgb(85, 19, 85), 0 0 200px rgb(85, 19, 85);
+}
+
+.row:hover .layer {
+    height: 100%;
+}
+
+
+.contactme{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 3rem;
+    padding-left: 30px;
+    margin-top: 130px;
+    margin-bottom: 40px;
+}
+.contactme-text h2{
+    font-size: 90px;
+    line-height: 1;
+    text-align: center;
+}
+.contactme-text h2 span{
+    color: #b7b7f3;
+}
+
+.contactme-text h4{
+    margin: 15px 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contactme-text p{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+
+.contact-list{
+    margin-bottom: 3rem;
+}
+.contact-list li{
+    margin-bottom: 10px;
+    display: block;
+}
+.contact-list i{
+    display: inline-block;
+    color: #b7b7f3;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .40s ease;
+
+}
+.contact-list li a:hover{
+    transform: scale(1.01) translateY(-5px);
+    color: #000000;
+}
+.contactme-icons a i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #b7b7f3;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #b7b7f3;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: .5 ease;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+
+}
+.contactme-icons a i:hover{
+    color: #000000;
+    background: #b7b7f3;
+    box-shadow: 0 0 20px #b7b7f3;
+}
+.contact-form form{
+    margin-top: 30px;
+    position: relative;
+}
+.contact-form form input::placeholder{
+    color: rgb(255, 255, 255);
+}
+.contact-form form input, form textarea::placeholder{
+    color: white;
+    font-size: 22px;
+    
+}
+.contact-form form input, form textarea{
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 18px;
+    background: #713d89;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+.contact-form textarea{
+    resize: none;
+    height: 220px;
+}
+.contact-form form .send{
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 40%;
+    display: inline-block;
+    padding: 14px 60px;
+    background: rgb(74, 37, 120);
+    border-radius: 40px;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px rgb(124, 73, 124),
+        0 0 25px rgb(121, 71, 121);
+}
+.contact-form form .send:hover{
+    background: rgb(218, 173, 234);
+    color: black;
+    box-shadow: 0 0 20px rgb(218, 173, 234);
+}
+
+
+
+
+
+
+
+
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideBottom {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0;
+    
+    background-color: rgb(70, 68, 71);
+}
+
+footer .footer-rights {
+  
+    text-align: center;
+    font-size: 12px;
+    color: white;
+
+}
+@media (max-width: 1200px) {
+    .leftSection, .rightSection {
+        flex-basis: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .firstSection {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .leftSection, .rightSection {
+        padding: 10px;
+    }
+
+    .leftSection .name {
+        font-size: 1.5rem;
+    }
+
+    .leftSection .doing {
+        font-size: 1rem;
+    }
+
+    .about {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .about-text h2 {
+        font-size: 2rem;
+    }
+
+    .about-text h4 {
+        font-size: 1.2rem;
+    }
+
+    .about-text p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .leftSection .name {
+        font-size: 1.2rem;
+    }
+
+    .leftSection .doing {
+        font-size: 0.9rem;
+    }
+
+    .about-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-text h4 {
+        font-size: 1rem;
+    }
+
+    .about-text p {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}
