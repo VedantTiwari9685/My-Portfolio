@@ -1,314 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vedant Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap"
-      rel="stylesheet"
-    />
 
-    <style></style>
-  </head>
-  <body>
-    <header class="header">
-      <nav>
-        <div class="left">Vedant's Developer Portfolio</div>
-        <div class="right">
-          <ul>
-            <li><a href="/" style="--i:1" class="active">Home</a></li>
-            <li><a href="#about" style="--i:2">About</a></li>
-            <li><a href="#services" style="--i:3">Services</a></li>
-            <li><a href="#skillssection" style="--i:4">Skills</a></li>
-            <li><a href="#projects" style="--i:5">Projects</a></li>
-          </ul>
-        </div>
-        <div class="right-most">
-          <ul>
-            <li><a class="contact" style="--i:6" href="#contactme">Contact Me</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+<head>
 
-    <main>
-      <section class="firstSection">
-        <div class="leftSection">
-          <div class="name">Hey, My name is <span class="purple">Vedant</span></div>
-          <div  class="doing">and I am an Enthusiastic</div>
-          <div class="elementmove"><span id="element"></span></div>
-          <div class="upper-buttons">
-            <a href="ResumeVedant_ATS_July.pdf"><button class="btn">Download Resume</button></a>
-            <a href="#about"><button class="btn">More About Me</button></a>
-          </div>
-          
-          <div class="socialfirst">
-            <a href="https://www.linkedin.com/in/vedant-tiwari-b967b927b/" style="--i:7"><i class='bx bxl-linkedin-square' ></i></a>
-            <a href="https://github.com/VedantTiwari9685" style="--i:8"><i class='bx bxl-github' ></i></a>
-            <a href="mailto:vedanttiwari9685@gmail.com" style="--i:9"><i class='bx bx-envelope' ></i></a>
-            <a href="https://www.instagram.com/tiwarijikachotabeta/" style="--i:10"><i class='bx bxl-instagram-alt' ></i></a>
-            <a href="https://api.whatsapp.com/send?phone=9424991187" style="--i:11"><i class='bx bxl-whatsapp' ></i></a>
-          </div>
-          
-        </div>
-        <div class="rightSection">
-          <img src="myimage.jpg" alt="" class="myimagestyle"/>
-        </div>
-      </section>
-      
-      <section class="about" id="about">
-        <div class="leftabout">
-          <div class="about-img">
-            <img src="myimage.jpg" class="myaboutimage">
-          </div>
-        </div>
-        <div class="rightabout">
-          <div class="about-text">
-            <h2>About <span>Me</span></h2>
-            <h4>3rd Year Student!</h4>
-            <p>I am a 3rd-year student with a strong passion for coding and technology, proficient in programming languages such as C, Python, HTML, CSS, and Java, which I particularly enjoy for solving Data Structures and Algorithms (DSA) problems. Currently, I am working on the frontend of the InfraSwift project and have developed a portfolio site using HTML, CSS, JavaScript, and PHP. I have solved over 150 problems on LeetCode, earning badges for my achievements, and hold 5 stars in Java, C, and DSA on HackerRank. As an intermediate Flutter developer with a keen interest in app development, I am about to dive into data science and machine learning with a focus on Python. My goal is to become a data scientist, leveraging my skills in app development and data science to create impactful solutions. In addition to my technical skills, I excel in leadership, problem-solving, critical thinking, teamwork and collaboration, public speaking, time management, communication skills, and adaptability. I am always eager to learn and take on new challenges in the tech world.</p>
-            <div class="aboutmebutton"><a href="#services" class="btn">More About Me</a></div>
-            
-          </div>
-        </div>
-      </section>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vedant Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet" />
 
-      <section id="services">
-        <div class="services">
-          <div class="container">
-            <h1 class="sub-title">My <span>Services</span></h1>
-            <div class="services-list">
-              <div>
-                <i class='bx bxl-android' style='color:#b7b7f3' ></i>
-                <h2>App Development</h2>
-                <p>I develop high-performance, visually appealing mobile, web, and desktop applications using Flutter's powerful toolkit, ensuring a seamless and responsive user experience across all platforms.</p>
-                <a href="https://flutter.dev/" class="read">Learn More</a>
-              </div>
-              <div>
-                <i class='bx bx-code-alt' style='color:#b7b7f3'  ></i>
-                <h2>Web Development</h2>
-                <p>I create responsive and engaging front-end web applications using modern technologies like HTML, CSS, and JavaScript, ensuring a seamless user experience across all devices.</p>
-                <a href="https://frontendmasters.com/guides/front-end-handbook/2018/what-is-a-FD.html" class="read">Learn More</a>
-              </div>
-              <div>
-                <i class='bx bx-crop' style='color:#b7b7f3' ></i>
-                <h2>UI/UX Design</h2>
-                <p>I design intuitive and visually appealing user interfaces that enhance user experience, focusing on usability, accessibility, and aesthetic appeal to create engaging and user-friendly digital products.</p>
-                <a href="https://usfbootcamps.com/blog/ui-ux-design/what-does-a-designer-do/" class="read">Learn More</a>
-              </div>
-              <!-- <div>
+
+</head>
+
+<body>
+  <header class="header">
+    <nav>
+      <div class="left">Vedant's Developer Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/" style="--i:1" class="active">Home</a></li>
+          <li><a href="#about" style="--i:2">About</a></li>
+          <li><a href="#services" style="--i:3">Services</a></li>
+          <li><a href="#skillssection" style="--i:4">Skills</a></li>
+          <li><a href="#projects" style="--i:5">Projects</a></li>
+        </ul>
+      </div>
+      <div class="right-most">
+        <ul>
+          <li><a class="contact" style="--i:6" href="#contactme">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        <div class="name">Hey, My name is <span class="purple">Vedant</span></div>
+        <div class="doing">and I am an Enthusiastic</div>
+        <div class="elementmove"><span id="element"></span></div>
+        <div class="upper-buttons">
+          <a href="ResumeVedant_ATS_July.pdf"><button class="btn">Download Resume</button></a>
+          <a href="#about"><button class="btn">More About Me</button></a>
+        </div>
+
+        <div class="socialfirst">
+          <a href="https://www.linkedin.com/in/vedant-tiwari-b967b927b/" style="--i:7"><i
+              class='bx bxl-linkedin-square'></i></a>
+          <a href="https://github.com/VedantTiwari9685" style="--i:8"><i class='bx bxl-github'></i></a>
+          <a href="mailto:vedanttiwari9685@gmail.com" style="--i:9"><i class='bx bx-envelope'></i></a>
+          <a href="https://www.instagram.com/tiwarijikachotabeta/" style="--i:10"><i
+              class='bx bxl-instagram-alt'></i></a>
+          <a href="https://api.whatsapp.com/send?phone=9424991187" style="--i:11"><i class='bx bxl-whatsapp'></i></a>
+        </div>
+
+      </div>
+      <div class="rightSection">
+        <img src="myimage.jpg" alt="" class="myimagestyle" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="leftabout">
+        <div class="about-img">
+          <img src="myimage.jpg" class="myaboutimage">
+        </div>
+      </div>
+      <div class="rightabout">
+        <div class="about-text">
+          <h2>About <span>Me</span></h2>
+          <h4>3rd Year Student!</h4>
+          <p>I am a 3rd-year student with a strong passion for coding and technology, proficient in programming
+            languages such as C, Python, HTML, CSS, and Java, which I particularly enjoy for solving Data Structures and
+            Algorithms (DSA) problems. Currently, I am working on the frontend of the InfraSwift project and have
+            developed a portfolio site using HTML, CSS, JavaScript, and PHP. I have solved over 150 problems on
+            LeetCode, earning badges for my achievements, and hold 5 stars in Java, C, and DSA on HackerRank. As an
+            intermediate Flutter developer with a keen interest in app development, I am about to dive into data science
+            and machine learning with a focus on Python. My goal is to become a data scientist, leveraging my skills in
+            app development and data science to create impactful solutions. In addition to my technical skills, I excel
+            in leadership, problem-solving, critical thinking, teamwork and collaboration, public speaking, time
+            management, communication skills, and adaptability. I am always eager to learn and take on new challenges in
+            the tech world.</p>
+          <div class="aboutmebutton"><a href="#services" class="btn">More About Me</a></div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="services">
+        <div class="container">
+          <h1 class="sub-title">My <span>Services</span></h1>
+          <div class="services-list">
+            <div>
+              <i class='bx bxl-android' style='color:#b7b7f3'></i>
+              <h2>App Development</h2>
+              <p>I develop high-performance, visually appealing mobile, web, and desktop applications using Flutter's
+                powerful toolkit, ensuring a seamless and responsive user experience across all platforms.</p>
+              <a href="https://flutter.dev/" class="read">Learn More</a>
+            </div>
+            <div>
+              <i class='bx bx-code-alt' style='color:#b7b7f3'></i>
+              <h2>Web Development</h2>
+              <p>I create responsive and engaging front-end web applications using modern technologies like HTML, CSS,
+                and JavaScript, ensuring a seamless user experience across all devices.</p>
+              <a href="https://frontendmasters.com/guides/front-end-handbook/2018/what-is-a-FD.html" class="read">Learn
+                More</a>
+            </div>
+            <div>
+              <i class='bx bx-crop' style='color:#b7b7f3'></i>
+              <h2>UI/UX Design</h2>
+              <p>I design intuitive and visually appealing user interfaces that enhance user experience, focusing on
+                usability, accessibility, and aesthetic appeal to create engaging and user-friendly digital products.
+              </p>
+              <a href="https://usfbootcamps.com/blog/ui-ux-design/what-does-a-designer-do/" class="read">Learn More</a>
+            </div>
+            <!-- <div>
                 <i class='bx bxs-data' style='color:#b7b7f3' ></i>
                 <h2>Data Science</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti in earum ipsam voluptatem! Nobis fugiat expedita perferendis eaque consectetur impedit necessitatibus cupiditate sapiente maiores, tenetur quaerat illo distinctio iure dolore?</p>
                 <a href="#" class="read">Learn More</a>
               </div> -->
-            </div>
           </div>
         </div>
-      </section>
-      <div class="empty" id="skillssection"></div>
-      <h1 class="sub-title-skills" >My <span>Skills</span></h1>
-      <section class="skills-section">
-        <div class="container1" id="Skills">
-          <h1 class="heading1">Technical Skills</h1>
-          <div class="tech-bars">
-            <div class="bar"><i class='bx bxl-html5' style='color:#c95d2e' ></i>
-              <div class="info">
-                <span>HTML</span>
-              </div>
-              <div class="progress-line html">
-                <span></span>
-              </div>
-            </div>
-            <div class="bar"><i class='bx bxl-css3' style='color:#147bbc' ></i>
-              <div class="info">
-                <span>CSS</span>
-              </div>
-              <div class="progress-line css">
-                <span></span>
-              </div>
-            </div>
-            <div class="bar"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAcRJREFUSEvFllFOw0AMRMe34AMJeg8k2pNATtJyEspJaP+4RfvJLUxn5Y1MtEm9YUsiVU2baJ/HHntXsNAlC3HRBKyqjyJyrhHRCrwWkcMS4B2AfY3qVopPIrL6V8Wq+gngKCJUHb7+pNigEJFNJkaNNgvMxQG8E0ao/X4FcIiarBpskJOZqVPVNYCtVx3J9xwwoWdTSpWEVhkrZSoSnasf1dFMK7bOXGPNAbO2bJ0UsKom9QC6mh6uBhuMbZNMpKq8314y93bzdjJzsa6dV31zcxmMKed83qsqDcZNov0AMZU0FlP8axcimAF4k1qL8X32eTGgq67WSyEJZB0nOoAZSJcPwsy3KRkvAuai/uP5VJ8yUJpYFnRqvWHQV8Guhye3vuGMVlWO1I+xERoCu9ncp9SU5kxQUSqHDZY8t0dPJSHwwDgezhRXHXl6L0RHprXNy8BkOQh+tzuBWIq5KDcFzmbW+dnMxpj5jCmm6tF6lsSNptogD3lCRTPjzDhZ5yI4j0VOJ1uIqo4DOFX6VPNx/x8Hh61T9EHIXKr6BOAewLeD5TgIuwPw5fq9f9ainXzreGf7+3S2jhx/Qopr6xt5fzHwD/Yu3x+KnwV6AAAAAElFTkSuQmCC"/>
-              <div class="info">
-                <span>Java</span>
-              </div>
-              <div class="progress-line java">
-                <span></span>
-              </div>
-            </div>
-
-            <div class="bar"><i class='bx bxl-python' style='color:#c32ec9' ></i>
-              <div class="info">
-                <span>Python</span>
-              </div>
-              <div class="progress-line python">
-                <span></span>
-              </div>
-            </div>
-            
-
-            
-
-          </div>
-        </div>
-        
-        <div class="container1">
-          <h1 class="heading1">Professional Skills</h1>
-          <div class="radial-bars">
-
-            <div class="radial-bar">
-              <svg x="0px" y="0px" viewBox="0 0 200 200">
-                <circle class="progress-bar" cx="100" cy="100"r="80"></circle> 
-                <circle class="path path-1" cx="100" cy="100"r="80"></circle> 
-              </svg>
-              <div class="percentage">85%</div>
-              <div class="text">Critical Thinking</div>
-            </div>
-            <div class="radial-bar">
-              <svg x="0px" y="0px" viewBox="0 0 200 200">
-                <circle class="progress-bar" cx="100" cy="100"r="80"></circle> 
-                <circle class="path path-2" cx="100" cy="100"r="80"></circle> 
-              </svg>
-              <div class="percentage">70%</div>
-              <div class="text">Communication</div>
-            </div>
-            <div class="radial-bar">
-              <svg x="0px" y="0px" viewBox="0 0 200 200">
-                <circle class="progress-bar" cx="100" cy="100"r="80"></circle> 
-                <circle class="path path-3" cx="100" cy="100"r="80"></circle> 
-              </svg>
-              <div class="percentage">92%</div>
-              <div class="text">Problem Solving</div>
-            </div>
-            <div class="radial-bar">
-              <svg x="0px" y="0px" viewBox="0 0 200 200">
-                <circle class="progress-bar" cx="100" cy="100"r="80"></circle> 
-                <circle class="path path-4" cx="100" cy="100"r="80"></circle> 
-              </svg>
-              <div class="percentage">89%</div>
-              <div class="text">Leadership</div>
-            </div>
-          </div>
-        </div>
-
-      </section>
-
-      <section class="project-section" >
-        <div class="portfolio">
-          <div class="main-text" id="projects"> 
-            <h2 >My <span>Projects</span></h2>
-            <div class="portfolio-content">
-              <div class="row">
-                <img src="pro1.jpg" class="leftalter" alt="">
-                <div class="layer">
-                  <h5>Fuel Emergency Safety System</h5>
-                  <p>(Published) Developed a mechanical
-                    safety mechanism (Application No. 202311090350 A) for fuel dispensers using a force-sensitive spring to shut off fuel flow and
-                    detach the handle under excessive force, enhancing safety and compliance.</p>
-                  <a href="PatentPublish.jpg"><i class='bx bx-link-external' style='color:#9a9a9a'></i> Visit</a>
-                </div>
-              </div>
-              <div class="row">
-                <img class="rightalter" src="pro4.jpg" alt="">
-                <div class="layer">
-                  <h5>InfraSwift Construction App</h5>
-                  <p>(Ongoing) Developing InfraSwift, a cross-platform construction app using
-                    Flutter, to simplify home renovations and interior design. Currently focused on frontend development, with backend
-                    development planned. The app will connect users with skilled professionals and offer tools for effective project management.
-                    </p>
-                  <a href="https://github.com/VedantTiwari9685/InfraSwift"><i class='bx bx-link-external' style='color:#9a9a9a'></i> Visit</a>
-                </div>
-              </div>
-              <div class="row">
-                <img src="pro3.jpg" class="leftalter" alt="">
-                <div class="layer">
-                  <h5>Quiz App</h5>
-                  <p>(Ongoing) Developing a cross-platform Flutter quiz app with multiple-choice
-                    questions and instant scoring, featuring user-friendly navigation and dynamic feedback. Demonstrated expertise in Flutter
-                    development and UI/UX design</p>
-                  <a href="https://github.com/VedantTiwari9685/Quiz-Application-"><i class='bx bx-link-external' style='color:#9a9a9a'></i> Visit</a>
-                </div>
-              </div>
-              <div class="row">
-                <img class="rightalter" src="pro2.jpg" alt="">
-                <div class="layer">
-                  <h5>Portfolio Site</h5>
-                  <p>Created a personal portfolio site using HTML, CSS, JavaScript, and PHP to showcase my skills, projects,
-                    and professional details, demonstrating my frontend development capabilities.</p>
-                  <a href="#"><i class='bx bx-link-external' style='color:#9a9a9a'></i> Visit</a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <section class="contactme" id="contactme">
-        <div class="contactme-text">
-          <h2>Contact <span>Me</span></h2>
-          <h4>Let's Work Together</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos eaque iste culpa quibusdam excepturi animi deleniti, maiores saepe suscipit enim vel explicabo in itaque molestiae, quam tenetur error commodi fugit.</p>
-          <div class="contact-list">
-            <li><i class='bx bxs-send' style='color:#b7b7f3'  ></i> vedanttiwari9685@gmail.com</li>
-            <li><i class='bx bx-phone' style='color:#b7b7f3' ></i> +91-9424991187</li>
-          </div>
-          <div class="contactme-icons">
-            <a href="https://www.linkedin.com/in/vedant-tiwari-b967b927b/" style="--i:7"><i class='bx bxl-linkedin-square' ></i></a>
-            <a href="https://github.com/VedantTiwari9685" style="--i:8"><i class='bx bxl-github' ></i></a>
-            <a href="mailto:vedanttiwari9685@gmail.com" style="--i:9"><i class='bx bx-envelope' ></i></a>
-            <a href="https://www.instagram.com/tiwarijikachotabeta/" style="--i:10"><i class='bx bxl-instagram-alt' ></i></a>
-            <a href="https://api.whatsapp.com/send?phone=9424991187" style="--i:11"><i class='bx bxl-whatsapp' ></i></a>
-          </div>
-        </div>
-
-        <div class="contact-form">
-          <form action="" >
-            <input type="" placeholder="Enter your Name" required>
-            <input type="email" placeholder="Enter you Email" required>
-
-            <input type="" placeholder="Enter Subject" required>
-            <textarea name="" id="" cols="40" rows="10" placeholder="Enter your Message" required></textarea>
-            <input type="submit" value="Submit" class="send"> 
-            
-          </form>
-        </div>
-
-
-      </section>
-
-    </main>
-    <footer>
-      <div class="footer">
-        
-        
-  
-      
-      <div class="footer-rights">
-         &#169; Copyright | All rights reserved
       </div>
-    </footer>
+    </section>
+    <div class="empty" id="skillssection"></div>
+    <h1 class="sub-title-skills">My <span>Skills</span></h1>
+    <section class="skills-section">
+      <div class="container1" id="Skills">
+        <h1 class="heading1">Technical Skills</h1>
+        <div class="tech-bars">
+          <div class="bar"><i class='bx bxl-html5' style='color:#c95d2e'></i>
+            <div class="info">
+              <span>HTML</span>
+            </div>
+            <div class="progress-line html">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar"><i class='bx bxl-css3' style='color:#147bbc'></i>
+            <div class="info">
+              <span>CSS</span>
+            </div>
+            <div class="progress-line css">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar"><img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAcRJREFUSEvFllFOw0AMRMe34AMJeg8k2pNATtJyEspJaP+4RfvJLUxn5Y1MtEm9YUsiVU2baJ/HHntXsNAlC3HRBKyqjyJyrhHRCrwWkcMS4B2AfY3qVopPIrL6V8Wq+gngKCJUHb7+pNigEJFNJkaNNgvMxQG8E0ao/X4FcIiarBpskJOZqVPVNYCtVx3J9xwwoWdTSpWEVhkrZSoSnasf1dFMK7bOXGPNAbO2bJ0UsKom9QC6mh6uBhuMbZNMpKq8314y93bzdjJzsa6dV31zcxmMKed83qsqDcZNov0AMZU0FlP8axcimAF4k1qL8X32eTGgq67WSyEJZB0nOoAZSJcPwsy3KRkvAuai/uP5VJ8yUJpYFnRqvWHQV8Guhye3vuGMVlWO1I+xERoCu9ncp9SU5kxQUSqHDZY8t0dPJSHwwDgezhRXHXl6L0RHprXNy8BkOQh+tzuBWIq5KDcFzmbW+dnMxpj5jCmm6tF6lsSNptogD3lCRTPjzDhZ5yI4j0VOJ1uIqo4DOFX6VPNx/x8Hh61T9EHIXKr6BOAewLeD5TgIuwPw5fq9f9ainXzreGf7+3S2jhx/Qopr6xt5fzHwD/Yu3x+KnwV6AAAAAElFTkSuQmCC" />
+            <div class="info">
+              <span>Java</span>
+            </div>
+            <div class="progress-line java">
+              <span></span>
+            </div>
+          </div>
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <!-- Setup and start animation! -->
-    <script>
-      var typed = new Typed("#element", {
-        strings: [
-          "Front-End Developer.",
-          "Competitive Programmer.",
-          "Flutter Developer.",
-          "Data Science Aspirant."
-        ],
-        typeSpeed: 70,
-        loop:true,
-      });
-    </script>
-  </body>
+          <div class="bar"><img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAARRJREFUSEvF1lEOgjAMANBtfyZ4B44i3EKNCZxEb6I/xEsY3U3kEBL/OrMIiZKV0a0LfALpW9dmqxQLPXIhV7DAZdOd8ARMe99nl/H3aLhsurMQokLgVgHUt8Nas8KhqF1EcMYxaDAciwbBHCgZ5kJJMCc6G+ZGZ8EpUC+cCp2EU6IoTEE313euAJ7YWW2k0Y9dVniPzD6QPXuPjmB/Z28oimaM4GzoZI1HOCvq7eoBVwB6uNpitve3dKTbiQv1ZjxurrLpDLV7sf9JGfcjjqvbbXx02nDhJNgG4MLJMBceBM/BQalCb1ctS40dzWbHWrTmU3hwxsMifDXH8Gj4u+2vSgiZu7c10UCP1dD3niVjH+L6/gEP8P0fgP5lrgAAAABJRU5ErkJggg==" />
+            <div class="info">
+              <span>Dart</span>
+            </div>
+            <div class="progress-line dart">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar"><i class='bx bxl-python' style='color:#c32ec9'></i>
+            <div class="info">
+              <span>Python</span>
+            </div>
+            <div class="progress-line python">
+              <span></span>
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
+
+      <div class="container1">
+        <h1 class="heading1">Professional Skills</h1>
+        <div class="radial-bars">
+
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">85%</div>
+            <div class="text">Critical Thinking</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">82%</div>
+            <div class="text">Communication</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">86%</div>
+            <div class="text">Problem Solving</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">89%</div>
+            <div class="text">Leadership</div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="project-section">
+      <div class="portfolio">
+        <div class="main-text" id="projects">
+          <h2>My <span>Projects</span></h2>
+          <div class="portfolio-content">
+            <div class="row">
+              <img src="ExpenseBG.jpg" class="leftalter" alt="">
+              <div class="layer">
+                <h5>Expense Tracker App</h5>
+                <p>(Pre-Release) Developed a feature-rich Flutter application that allows users to track and categorize
+                  their expenses efficiently. The app provides visual insights through dynamic graphs, making it easy to
+                  monitor spending habits. It also supports both dark and light modes, offering a customizable user
+                  experience.</p>
+                <p>Download the App here <i class='bx bx-download' style='color:#290641'></i></p>
+                <a
+                  href="https://github.com/VedantTiwari9685/Expense-Tracker-App/releases/download/v1.0.1-beta/expense-tracker.apk"><i
+                    class='bx bx-link-external' style='color:#9a9a9a'></i> Visit</a>
+              </div>
+            </div>
+            <div class="row">
+              <img class="rightalter" src="MealsBg.jpg" alt="">
+              <div class="layer">
+                <h5>Meals App</h5>
+                <p>(Ongoing) Developing a comprehensive Flutter application that lets users explore various food
+                  categories and select dishes based on their preferences. The app provides detailed recipes, including
+                  ingredients, step-by-step instructions, required cooking time, and cost evaluation (pricey or cheap).
+                  Users can also save their favorite meals for easy access in the future.
+                </p>
+                <a href="https://github.com/VedantTiwari9685/Meals-App"><i class='bx bx-link-external'
+                    style='color:#9a9a9a'></i> Visit</a>
+              </div>
+            </div>
+            <div class="row">
+              <img src="QuizBg.jpg" class="leftalter" alt="">
+              <div class="layer">
+                <h5>Quiz App</h5>
+                <p>(Ongoing) Developing a cross-platform Flutter quiz app with multiple-choice
+                  questions and instant scoring, featuring user-friendly navigation and dynamic feedback. Demonstrated
+                  expertise in Flutter
+                  development and UI/UX design</p>
+                <a href="https://github.com/VedantTiwari9685/Quiz-Application-/releases/tag/v-1.0-final"><i
+                    class='bx bx-link-external' style='color:#9a9a9a'></i> Visit</a>
+              </div>
+            </div>
+            <div class="row">
+              <img class="rightalter" src="PatentBg.png" alt="">
+              <div class="layer">
+                <h5>Fuel Emergency Safety System (Patent)</h5>
+                <p>(Published) Developed a mechanical
+                  safety mechanism (Application No. 202311090350 A) for fuel dispensers using a force-sensitive spring
+                  to shut off fuel flow and
+                  detach the handle under excessive force, enhancing safety and compliance.</p>
+                <a href="PatentPublish.jpg"><i class='bx bx-link-external' style='color:#9a9a9a'></i> Visit</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="contactme" id="contactme">
+      <div class="contactme-text">
+        <h2>Contact <span>Me</span></h2>
+        <h4>Let's Work Together</h4>
+        <p>I’m excited to collaborate on innovative projects and bring creative ideas to life. If you’re interested in
+          hiring me or would like to discuss a paid project, feel free to reach out. I’m eager to help you turn your
+          vision into reality!</p>
+        <div class="contact-list">
+          <li><i class='bx bxs-send' style='color:#b7b7f3'></i> vedanttiwari9685@gmail.com</li>
+          <li><i class='bx bx-phone' style='color:#b7b7f3'></i> +91-9424991187</li>
+        </div>
+        <div class="contactme-icons">
+          <a href="https://www.linkedin.com/in/vedant-tiwari-b967b927b/" style="--i:7"><i
+              class='bx bxl-linkedin-square'></i></a>
+          <a href="https://github.com/VedantTiwari9685" style="--i:8"><i class='bx bxl-github'></i></a>
+          <a href="mailto:vedanttiwari9685@gmail.com" style="--i:9"><i class='bx bx-envelope'></i></a>
+          <a href="https://www.instagram.com/tiwarijikachotabeta/" style="--i:10"><i
+              class='bx bxl-instagram-alt'></i></a>
+          <a href="https://api.whatsapp.com/send?phone=9424991187" style="--i:11"><i class='bx bxl-whatsapp'></i></a>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mrbzkyby" method="post">
+        
+
+            <input type="text" name="name" id="full-name" placeholder="Enter you Name" required="">
+           
+            <input type="email" name="_replyto" id="email-address" placeholder="Enter your Email" required="">
+      
+            <textarea rows="10" cols="40" name="message" id="message" placeholder="Enter your message" required=""></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+       
+          <input type="submit" value="Submit" class="send">
+        </form>
+        <!-- <form action="https://formspree.io/f/mrbzkyby" method="post">
+          <input type="" placeholder="Enter your Name" required>
+          <input type="email" placeholder="Enter you Email" required>
+
+          <input type="" placeholder="Enter Subject" required>
+          <textarea name="" id="" cols="40" rows="10" placeholder="Enter your Message" required></textarea>
+          <input type="submit" value="Submit" class="send">
+
+        </form> -->
+      </div>
+
+
+    </section>
+
+
+  </main>
+  <footer>
+    <div class="footer">
+
+
+
+
+      <div class="footer-rights">
+        &#169; Copyright | All rights reserved
+      </div>
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed("#element", {
+      strings: [
+        "Front-End Developer.",
+        "Competitive Programmer.",
+        "Flutter Developer.",
+        "Data Science Aspirant."
+      ],
+      typeSpeed: 70,
+      loop: true,
+    });
+  </script>
+
+
+</body>
+
 </html>

@@ -554,7 +554,11 @@ main hr {
 }
 
 .progress-line.python span {
-    width: 40%;
+    width: 45%;
+
+}
+.progress-line.dart span {
+    width: 65%;
 
 }
 
@@ -612,6 +616,9 @@ main hr {
 
 .progress-line.python span::after {
     content: "45%";
+}
+.progress-line.dart span::after {
+    content: "65%";
 }
 
 .progress-line.c span::after {
@@ -683,12 +690,12 @@ main hr {
 }
 @keyframes animate-path2 {
     100%{
-        stroke-dashoffset: 200;
+        stroke-dashoffset: 85;
     }
 }
 @keyframes animate-path3 {
     100%{
-        stroke-dashoffset: 40;
+        stroke-dashoffset: 65;
     }
 }
 @keyframes animate-path4 {
@@ -803,7 +810,7 @@ main hr {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 15px;
-    margin-right: 3rem;
+    margin-right: 4.5rem;
 }
 
 .layer p {
@@ -827,7 +834,7 @@ main hr {
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 400;
-    margin-right: 3rem;
+    margin-right: 4.5rem;
 }
 .layer a:hover {
     color: black;
