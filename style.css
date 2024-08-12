@@ -1179,7 +1179,7 @@ footer .footer-rights {
 
     .rightSection{
         margin-left: -470px;
-        padding-left: 25px;
+        padding-left: 5px;
         margin-top: 0px;
         margin-right: 10px;
     }
@@ -1257,7 +1257,7 @@ footer .footer-rights {
     }
     .services{
         width: 270px;
-        margin-left: 10px;
+        margin-left: 30px;
         margin-top: -350px;
         padding-top: 100px;
         
@@ -1406,7 +1406,7 @@ footer .footer-rights {
     }
 
     .project-section{
-        margin-left: 60px;
+        margin-left: 80px;
     }
     .main-text h2{
         font-size: 2rem;
@@ -1534,7 +1534,7 @@ footer .footer-rights {
     }
     .contactme-icons a {
         
-        margin-left: 38px;
+        margin-left: 48px;
         margin-right: -100px;
         justify-content: space-evenly;
         padding-right: 40px;
