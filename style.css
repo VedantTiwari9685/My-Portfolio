@@ -1116,7 +1116,7 @@ footer .footer-rights {
     }
     
     nav ul{
-        font-size: 10px;
+        font-size: 12px;
         margin-right: 0.1px;
         display: inline-flex;
     }
@@ -1137,7 +1137,7 @@ footer .footer-rights {
         margin-right: 10px;
         margin-left: 10px;
         padding: 1px 10px;
-        font-size: 8px;
+        font-size: 12px;
         letter-spacing: 0;
     }
     
@@ -1158,7 +1158,7 @@ footer .footer-rights {
     .leftSection{
         
         margin-top: 210px;
-        margin-left: 5px;
+        margin-left: 95px;
         font-size: 1rem;
     }
     .leftSection #element{
@@ -1178,7 +1178,7 @@ footer .footer-rights {
     }
 
     .rightSection{
-        margin-left: -570px;
+        margin-left: -470px;
         padding-left: 25px;
         margin-top: 0px;
         margin-right: 10px;
@@ -1231,7 +1231,7 @@ footer .footer-rights {
     .rightabout{
         width: 270px;
         height: 600px;
-        margin-left: -360px;
+        margin-left: -320px;
         margin-top: -250px;
     }
     .rightabout .about-text h2{
@@ -1257,7 +1257,7 @@ footer .footer-rights {
     }
     .services{
         width: 270px;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-top: -350px;
         padding-top: 100px;
         
@@ -1265,14 +1265,14 @@ footer .footer-rights {
     .sub-title{
         
         font-size: 2rem;
-        margin-left: 65px;
+        margin-left: 105px;
         margin-right: 0px;
         margin-top: -40px;
     }
     .sub-title-span{
         
         font-size: 2rem;
-        margin-left: 120px;
+        margin-left: 160px;
         margin-right: 0px;
         margin-top: -115px;
         
@@ -1281,14 +1281,17 @@ footer .footer-rights {
         margin-top: -10px;
         margin-left: 20px;
     }
+    .services-list div{
+        width: 330px;
+    }
     .services-list div i{
         font-size: 2rem;
-        margin-left: -10px;
+        margin-left: 10px;
     }
     .services-list div h2{
         font-size: 1.2rem;
         margin-top: -58px;
-        margin-left: 30px;  
+        margin-left: 50px;  
     }
     .services-list div p{
         font-size: 1rem;
@@ -1297,6 +1300,7 @@ footer .footer-rights {
     .services-list div a{
         font-size: 10px;
         margin-top: 15px;
+        margin-left: 80px;
     }
     .read{
         padding: 3px 10px;
@@ -1307,7 +1311,7 @@ footer .footer-rights {
     .sub-title-skills{
         margin-top: -100px;
         margin-bottom: -30px;
-        margin-left: 40px;
+        margin-left: 70px;
         padding-top: 250px;
         padding-left: 50px;
         width: 400px;
@@ -1348,12 +1352,13 @@ footer .footer-rights {
 
         width: 247;
         height: 400px;
-        margin-left: -40px;
+        margin-left: 30px;
         margin-right: -40px;
         
     }
     .container2 {
         margin-top: -500px;
+        margin-left: 70px;
         width: 370px;
         height: 400px;
         padding: 75px 90px;
@@ -1401,7 +1406,7 @@ footer .footer-rights {
     }
 
     .project-section{
-        margin-left: 40px;
+        margin-left: 60px;
     }
     .main-text h2{
         font-size: 2rem;
@@ -1441,7 +1446,7 @@ footer .footer-rights {
         margin-left: 70px;
     }
     .contactme{
-        margin-left: 70px;
+        margin-left: 100px;
         margin-top: 0px;
         padding-top: 50px;
     }
